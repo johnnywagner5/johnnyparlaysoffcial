@@ -1,0 +1,107 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<link rel="stylesheet" href="styles/main.css">
+	<link rel="stylesheet" href="styles/week.css">
+	<link rel="icon" href="images/new.gif">
+	<title>Weekly Parlays</title>
+	<link rel="stylesheet" href="styles/slicknav.css">
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+	<script src="js/jquery.slicknav.min.js"></script>
+	<script type="text/javascript">
+		$(document).ready(function(){
+			$('#nav_menu').slicknav({prependTo:"#mobilemenu"});
+		});
+	</script>
+	
+</head>
+
+
+<body>
+
+	<header>
+        <img class="logoimage" src="images/new.gif" alt="Homepage">
+        <h1>Johnny Parlays</h1>
+        <nav>
+            <div class="nav-item"><a href="index.html">Home</a></div>
+            <div class="nav-item"><a href="week.html">Weekly Parlays</a></div>
+            <div class="nav-item"><a href="record.html">Record</a></div>
+            <div class="nav-item"><a href="risky.html">Risky Bets</a></div>
+            <div class="nav-item"><a href="month.html">Parlay of The Month</a></div>
+        </nav>
+    </header>
+
+	<nav id="mobilemenu"></nav>
+
+	<main>
+		<h2>If You Are Feeling Risky!</h2>
+
+
+	<div class="container">
+		<div class="heading">
+			
+		</div>
+		<div class="row">
+
+			<div class="column">
+				<img src="images/r1.jpeg">
+				<img src="images/r2.jpeg">
+				
+				
+				
+			</div>
+
+
+			<div class="column">
+				<img src="images/r3.jpeg">
+				<img src="images/r4.jpeg">
+				
+				
+				
+			</div>
+
+			<div class="column">
+				<img src="images/r5.jpeg">
+				<img src="images/r6.jpeg">
+				
+				
+				
+			</div>
+
+			<div class="column">
+				<img src="images/r7.jpeg">
+				<img src="images/r8.jpeg">
+				
+				
+				
+			</div>
+
+
+
+
+		</div>
+
+	
+
+	</div>
+	</main>
+	<script>
+        window.onload = function() {
+            var d = new Date();
+            document.getElementById("copyright").innerHTML = d.getFullYear();
+        }
+    </script>
+
+
+	
+	<footer>
+		<p>&copy; <span id="copyright"></span> Jonathan Wagner Productions</p>
+	</footer>
+
+
+
+</body>
+</html>
